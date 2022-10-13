@@ -1,3 +1,8 @@
+* {
+    text-align: center;
+}
+
+
 /* Section 1: Home */
 
 
@@ -5,7 +10,16 @@ p {
     color: aquamarine;
 }
 
+.top-container{
+    position: relative;
+    padding-top: 150px;
+ 
+}
+
 /* Section 2: About */
+.sahalpng {
+    width: 20%;
+    }
 
 
 
