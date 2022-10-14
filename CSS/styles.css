@@ -63,9 +63,17 @@ p {
 
 
 /* Section 2: About */
+.about-container {
+    background-color: #DAE1E7;
+}
 .sahalpng {
     width: 20%;
     }
+
+.about-description {
+    color: wheat;
+
+}
 
 
 
