@@ -65,18 +65,46 @@ p {
 /* Section 2: About */
 .about-container {
     background-color: #DAE1E7;
+
 }
 .sahalpng {
-    width: 20%;
+    margin: 75px 0 30px;
+    width: 16%;
     }
 
 .about-description {
-    color: wheat;
+    color: #142850;
+    padding: 10px 0 30px;
 
 }
 
 
 
 /* Section 3: Project */
+.skill-row {
+    background-color: #142850;
+
+}
+
+.vector3 {
+    width: 20%;
+    float: left;
+    position: absolute;
+}
+
+.vector4 {
+    width: 20%;
+    float: right;
+}
+
+.skills-1 {
+    padding: 0 300px 0;
+
+}
+
+
+
+
+
 
 /* Section 4: CTA */
