@@ -20,13 +20,13 @@ nav {
     font-family: 'Poppins', sans-serif;;
     height: 100px;
     background-color: #DAE1E7; 
-    padding: 0 5%;  
+    padding: 0 3%;  
 
 }
 
 nav .logo {
     float: left;
-    width: 40%;
+    width: 30%;
     height:100%;
     display: flex;
     align-items: center;
@@ -34,17 +34,35 @@ nav .logo {
     color: #142850;
 }
 
+nav .logo .nav-title {
+    text-align: center;
+    align-items: center;
+    margin: 0 30px;
+    color: #142850;
+}
+
+
+
 nav .links {
     display: flex;
     float: right;
     padding: 0;
     margin: 0;
-    width: 60%;
+    left: 3%;
+    width: 40%;
     height: 100%;
     justify-content: space-around;
     align-items: center;
 
 }
+
+nav .links a:hover {
+    background-color: #FFC93C;
+    transform: translateZ(-20px);
+    transform: translateX(20px);
+}
+
+
 
 nav .links li {
     list-style: none;
@@ -56,7 +74,7 @@ nav .links a {
     font-size: 16px;
     font-weight: bold;
     color: #142850;
-    background-color: rgba(0, 0, 0, .1);
+    /* background-color: rgba(0, 0, 0, .1); */
     text-decoration: none;
 }
 
@@ -167,6 +185,7 @@ nav .icon-burger .line {
 .heading-describe {
     margin-bottom: auto;
     padding-bottom: 3.5rem;
+    color: #DAE1E7;
 }
 
 
