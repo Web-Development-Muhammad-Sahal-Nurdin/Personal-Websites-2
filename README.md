@@ -1,5 +1,5 @@
 # Personal-Websites-2 - Muhammad Sahal Nurdin
-Built for adnvanced HTML and CSS practice
+Built for advanced HTML and CSS practice
 #### Website Link : https://web-development-muhammad-sahal-nurdin.github.io/Personal-Websites-2/
 
 ## Level-1 : 
