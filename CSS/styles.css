@@ -16,6 +16,7 @@ body     {
 
 .top-container h1:hover {
     color: #FFC93C;
+    position: relative;
 }
 
 .heading-font{
@@ -31,6 +32,7 @@ body     {
     position: relative;
     left: 300px;
     top: 50px;
+    z-index: 0;
 }
 
 .heading-describe {
@@ -57,6 +59,7 @@ p {
     background-color: #142850;
     margin: 0;
 
+
  
 }
 
@@ -65,42 +68,84 @@ p {
 /* Section 2: About */
 .about-container {
     background-color: #DAE1E7;
+    padding: 2% 15%;
 
 }
 .sahalpng {
-    margin: 75px 0 30px;
-    width: 16%;
+    width: 30%;
+    margin-bottom: 3%;
     }
 
 .about-description {
     color: #142850;
-    padding: 10px 0 30px;
+    margin: 0 15%;
+}
 
+.innerabout {
+    margin: 1% 15%; 
 }
 
 
 
-/* Section 3: Project */
-.skill-row {
+
+
+
+
+/* Section 3: Skills */
+
+#Skills {
+    margin: auto;
     background-color: #142850;
+    padding: 3% 7%;
 
 }
 
-.vector3 {
-    width: 20%;
-    float: left;
-    position: absolute;
-}
-
-.vector4 {
-    width: 20%;
-    float: right;
+.skill-row {
+    margin: 100px auto 100px auto;
+    width: 50%;
 }
 
 .skills-1 {
-    padding: 0 300px 0;
+    padding: 1% 0;
+}
+
+.skills-2{
+    padding: 1% 0;
 
 }
+
+.skills-heading-top{
+    color: #DAE1E7;
+    font-size: 3rem;
+}
+.skills-heading {
+    color: #DAE1E7;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.skills-describe {
+    color: #DAE1E7;
+    text-align: left;
+    font: 1rem ;
+}
+
+
+
+.vector3 {
+    width: 30%;
+    margin-left: 30px;
+    float: right;
+    position: relative;
+}
+
+.vector4 {
+    width: 40%;
+    float: left;
+    margin-right: 30px;
+    position: relative;
+}
+
 
 
 
@@ -109,6 +154,23 @@ p {
 
 /* Section 4: CTA */
 
-.about-container {
-    background-color: #142850;
+#CTA {
+    background-color: #DAE1E7;
+    padding: 3% 15%;
+    margin: auto;
+
+}
+
+.bottom-container {
+    padding: 3% 15%;
+
+}
+
+.links {
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.credit {
+    color: #142850;
 }
