@@ -34,10 +34,11 @@ nav .logo {
     color: #142850;
 }
 
-nav .logo .nav-title {
+nav .logo .nav-title a{
     text-align: center;
     align-items: center;
     margin: 0 30px;
+    text-decoration: none;
     color: #142850;
 }
 
@@ -161,7 +162,7 @@ nav .icon-burger .line {
     top: 20px;
 }
 
-.top-container h1:hover {
+.top-container  h1:hover  {
     color: #FFC93C;
     position: relative;
 }
@@ -190,9 +191,9 @@ nav .icon-burger .line {
 
 
 .vector1 {
-    text-align: center;
     position: relative;
-    left: 60px;
+    display: flex;
+    margin: auto;
     width: 30%;
 }
 
@@ -214,6 +215,11 @@ p {
 
 
 /* Section 2: About */
+
+.about-container  p:hover, th:hover, td:hover {
+    color: #FFC93C;
+}
+
 .about-container {
     background-color: #DAE1E7;
     padding: 7% 15%;
@@ -262,6 +268,11 @@ p {
     background-color: #142850;
     padding: 3% 7%;
 
+}
+
+.skill-row p:hover,
+h3:hover, h2:hover {
+    color: #FFC93C;
 }
 
 .skill-row {
