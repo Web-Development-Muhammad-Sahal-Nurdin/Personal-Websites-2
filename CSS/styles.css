@@ -329,8 +329,10 @@ h3:hover, h2:hover {
     margin: auto;
 }
 
-.container-card {
-
+.article-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minimax(265px, 1fr));
+    gap: 2rem;
 }
 
 
