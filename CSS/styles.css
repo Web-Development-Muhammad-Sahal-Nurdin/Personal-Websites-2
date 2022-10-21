@@ -1,11 +1,13 @@
 * {
     scroll-behavior: smooth;
+    
 }
 
 body     {
     text-align: center;
     margin: 0;
     font-family:  'Poppins', sans-serif;
+
 }
 
 /* Navbar */
@@ -209,11 +211,7 @@ p {
 .top-container{
     position: relative;
     padding-top: 20px;
-    background-color: #142850;
-    margin: 0;
-
-
- 
+background-image: radial-gradient(circle, #150050, #200158, #2a0161, #340069, #3f0071);
 }
 
 
@@ -269,7 +267,7 @@ p {
 
 #Skills {
     margin: auto;
-    background-color: #142850;
+    background-image: radial-gradient(circle, #150050, #200158, #2a0161, #340069, #3f0071);
     padding: 3% 7%;
 
 }
@@ -330,9 +328,7 @@ h3:hover, h2:hover {
 
 /* Scetion 4: Tools */
 #Tools {
-background-image: linear-gradient(130deg, #6e6073 0, #5b4a6a 16.67%, #423462 33.33%, #1f1f59 50%, #000e51 66.67%, #00004a 83.33%, #000045 100%);
-    padding: 7% 15%;
-    margin: auto;
+background-image: radial-gradient(circle, #150050, #200158, #2a0161, #340069, #3f0071);
 }
 
 #Tools h1 {
@@ -444,7 +440,7 @@ background: hsla(211, 96%, 62%, 1);
 /* Section 5: CTA */
 
 #CTA {
-    background-color: #142850;
+background-image: radial-gradient(circle, #150050, #200158, #2a0161, #340069, #3f0071);
     padding: 3% 7%;
 }
 
