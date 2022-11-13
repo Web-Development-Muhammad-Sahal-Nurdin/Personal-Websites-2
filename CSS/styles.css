@@ -13,21 +13,31 @@ body     {
 /* Navbar */
 
 nav {
-    position: relative;
+    position: fixed;
     z-index: 10;
     left: 0;
     right: 0;
     top: 0; 
     font-family: 'Poppins', sans-serif;;
-    height: 100px;
+    height: 75px;
     /* background-color: #DAE1E7;  */
-    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur( 25.0px );
+    -webkit-backdrop-filter: blur( 25.0px );
+    border-radius: 10px;
+    border: 1px solid rgb(255 255 255 / 15%);
+     text-align: center;
+
+
+
+
+
+    /* background: rgba(255, 255, 255, 0.25);
         box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
         backdrop-filter: blur(4px);
         -webkit-backdrop-filter: blur(4px);
         border-radius: 10px;
-        border: 1px solid rgba(255, 255, 255, 0.18);
-    padding: 0 3%;  
+        border: 1px solid rgba(255, 255, 255, 0.18); */
+    padding: 0 15%;  
 }
 
 nav .logo {
@@ -36,8 +46,8 @@ nav .logo {
     height:100%;
     display: flex;
     align-items: center;
-    font-size: 24px;
-    color: #142850;
+    font-size: 18px;
+    color: #2C3639;
 }
 
 nav .logo .nav-title a{
@@ -45,7 +55,7 @@ nav .logo .nav-title a{
     align-items: center;
     margin: 0 30px;
     text-decoration: none;
-    color: #142850;
+    color: #2C3639;
 }
 
 
@@ -80,7 +90,7 @@ nav .links a {
     padding: 1em;
     font-size: 16px;
     font-weight: bold;
-    color: #142850;
+    color: #2C3639;
     /* background-color: rgba(0, 0, 0, .1); */
     text-decoration: none;
 }
@@ -102,7 +112,7 @@ nav .icon-burger {
 nav .icon-burger .line {
     width: 30px;
     height: 5px;
-    background-color: #142850;
+    background-color: #2C3639;
     margin: 5px;
     border-radius: 3px;
     transition: all .3s ease-in-out;
@@ -158,9 +168,6 @@ nav .icon-burger .line {
 
 
 /* Section 1: Home */
-
-
-
 .clock {
     width: 8%;
     position: relative;
@@ -174,11 +181,11 @@ nav .icon-burger .line {
 }
 
 .heading-font{
-    color: white;
+    color: black;
     padding-bottom: 0;
     font-size: 3rem;
     margin-bottom: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'merriweather', sans-serif;
 }
 
 .hat{
@@ -192,7 +199,9 @@ nav .icon-burger .line {
 .heading-describe {
     margin-bottom: auto;
     padding-bottom: 3.5rem;
-    color: #DAE1E7;
+    color: #2C3639;
+    font: 'Poppins';
+    font-weight: lighter;
 }
 
 
@@ -204,14 +213,14 @@ nav .icon-burger .line {
 }
 
 p {
-    color: white;
+    color: #2C3639;
     
 }
 
 .top-container{
     position: relative;
     padding-top: 20px;
-background-image: radial-gradient(circle, #150050, #200158, #2a0161, #340069, #3f0071);
+    background-color: #FAEEE0;
 }
 
 
@@ -223,7 +232,7 @@ background-image: radial-gradient(circle, #150050, #200158, #2a0161, #340069, #3
 }
 
 .about-container {
-    background-color: #DAE1E7;
+    background-color: #FAEEE0;
     padding: 7% 15%;
 
 }
@@ -233,7 +242,7 @@ background-image: radial-gradient(circle, #150050, #200158, #2a0161, #340069, #3
     }
 
 .about-description {
-    color: #142850;
+    color: #2C3639;
     margin: 0 15%;
 }
 
@@ -267,10 +276,12 @@ background-image: radial-gradient(circle, #150050, #200158, #2a0161, #340069, #3
 
 #Skills {
     margin: auto;
-    background-image: radial-gradient(circle, #150050, #200158, #2a0161, #340069, #3f0071);
-    padding: 3% 7%;
-
+    background-color: #FAEEE0;
+    padding: 0% 15%;
+    
 }
+
+
 
 .skill-row p:hover,
 h3:hover, h2:hover {
@@ -280,7 +291,7 @@ h3:hover, h2:hover {
 .skill-row {
     margin: 50px auto 100px auto;
     width: 50%;
-    padding: 3% 7%;
+    padding: 0% 7%;
 }
 
 .skills-1 {
@@ -293,18 +304,18 @@ h3:hover, h2:hover {
 }
 
 .skills-heading-top{
-    color: #DAE1E7;
+    color: #2C3639;
     font-size: 3rem;
     margin: 0;
 }
 .skills-heading {
-    color: #DAE1E7;
+    color: #2C3639;
     text-align: left;
     font-size: 1.8rem;
 }
 
 .skills-describe {
-    color: #DAE1E7;
+    color: #2C3639;
     text-align: left;
     font: 1rem ;
 }
@@ -326,14 +337,17 @@ h3:hover, h2:hover {
     position: relative;
 }
 
-/* Scetion 4: Tools */
+/* Section 4: Tools */
 #Tools {
-background-image: radial-gradient(circle, #150050, #200158, #2a0161, #340069, #3f0071);
+    background-color: #FAEEE0;
+    padding: 3% 15%;
 }
+
+
 
 #Tools h1 {
     font-size: 3rem;
-    color: #ffff;
+    color: #2C3639;
 }
 .container {
     display: flex;
@@ -416,7 +430,7 @@ background: hsla(211, 96%, 62%, 1);
 }
 
 .container .card .box .content h3 {
-    color: #777;
+    color: #2C3639;
     z-index: 1;
     font-size: 1.8em;
     transition: 0.5s;
@@ -440,7 +454,8 @@ background: hsla(211, 96%, 62%, 1);
 /* Section 5: CTA */
 
 #CTA {
-background-image: radial-gradient(circle, #150050, #200158, #2a0161, #340069, #3f0071);
+
+    background-color: #FAEEE0;
     padding: 3% 7%;
 }
 
@@ -456,5 +471,5 @@ background-image: radial-gradient(circle, #150050, #200158, #2a0161, #340069, #3
 }
 
 .credit {
-    color: #142850;
+    color: #2C3639;
 }
